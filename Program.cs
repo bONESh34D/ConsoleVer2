@@ -32,11 +32,11 @@ namespace ConsoleVer2_GitHub {
                 string EmailRequestor = "";
 
                 /*Header*/
-                Console.WriteLine("                                                                        ");
-                Console.WriteLine("                                                                        ");
-                Console.WriteLine("                                                                        ");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
                 Console.WriteLine("__________________________________________________________________________________");
-                Console.WriteLine($"\r\n   Welcome! Thank you for using the APP Lower Environment Refresh Tool(ver 2)   ");
+                Console.WriteLine($"\r\n   Welcome! Thank you for using the APP Lower Environment Refresh Tool (ver 2)   ");
                 Console.WriteLine("__________________________________________________________________________________");
                 Console.WriteLine($"\r\n\r\nPLEASE NOTE: The source of your database will be from " + Source + " Production.");
 
@@ -108,9 +108,9 @@ namespace ConsoleVer2_GitHub {
                 Console.WriteLine($"-------->   " + ADRequestor + "");
                 Console.WriteLine($"-------->   " + EmailRequestor + "");
                 Console.WriteLine($"\r\n\r\n________________________________________________________");
-                Console.WriteLine("                                                                        ");
-                Console.WriteLine("                                                                        ");
-                Console.WriteLine("                                                                        ");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
 
                 /*_BEGIN_#######_ERROR HANDLING_*/
                 Console.WriteLine($"_________________________________________________");
@@ -125,7 +125,7 @@ namespace ConsoleVer2_GitHub {
                 refreshEnvironment(refreshRequest);
 
                 Console.WriteLine("___________________________________________________________________________________");
-                Console.WriteLine($"   Have a nice day! Thank you for using the APP Lower Environment Refresh Tool(ver 2)   ");
+                Console.WriteLine($"   Have a nice day! Thank you for using the APP Lower Environment Refresh Too l(ver 2)   ");
                 Console.WriteLine("___________________________________________________________________________________");
 
                 Console.ReadKey();
