@@ -58,7 +58,7 @@ namespace ConsoleVer2_GitHub {
 
                 //example of CompanyCode is A1
                 Console.WriteLine($"_________________________________________________");
-                Console.WriteLine($"\r\n\r\nWhich CompanyCode(database shortname) would you like to refresh? Please enter CompanyCode.(ie. A1) :");
+                Console.WriteLine($"\r\n\r\nWhich CompanyCode(database shortname) would you like to refresh? Please enter CompanyCode. (ie. A1) :");
                 CompanyCode = Console.ReadLine();
                 Console.WriteLine($"\r\n\r\nCONFIRMATION: You have chosen the " + CompanyCode + " database. - Please press enter to confirm");
 
